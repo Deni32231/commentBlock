@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments block</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="comments__wrapper">
+        <form action="#" class="comments-form">
+            <label class="comments-form__label">
+                <span>Имя<sub>*</sub></span>
+                <span class="comments-form__warrning hidden">Заполните имя</span>
+                <input type="text" name="name" value="">
+            </label>
+
+            <label class="comments-form__label">
+                <span>Сообщение<sub>*</sub></span>
+                <span class="comments-form__warrning hidden">Заполните сообщение</span>
+                <textarea type="text" name="text" value=""></textarea>
+            </label>
+
+            <label class="comments-form__label">
+                <span>Дата</span>
+                <input type="date" name="date">
+            </label>
+
+
+            <input type="submit" value="Добавить комментарий">
+        </form>
+        <div class="comments">
+            <!-- <div class="comment">
+                <span class="comment__name">testName</span>
+                <span class="comment__time">12:34</span>
+                <p class="comment__text">dasdasasd</p>
+                <button class="comment__delete">cor</button>
+                <button class="comment__like">like</button>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
